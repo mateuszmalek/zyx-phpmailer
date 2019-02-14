@@ -21,7 +21,7 @@ class Adapter extends \PHPMailer
      * @var callable Advanced html2text converter
      * (bundled `html2text` was removed for license reasons in https://github.com/PHPMailer/PHPMailer/issues/232)
     */
-    public $html2textHandler = '\Html2Text\Html2Text::convert';
+    public $html2textHandler = '\Soundasleep\Html2Text::convert';
 
 
     /**

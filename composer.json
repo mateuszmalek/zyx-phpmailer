@@ -18,7 +18,7 @@
     "require": {
         "yiisoft/yii2": "*",
         "phpmailer/phpmailer": "~5.2.25",
-        "soundasleep/html2text": "*"
+        "soundasleep/html2text": "^1.0"
     },
     "autoload": {
         "psr-4": { "zyx\\phpmailer\\": "" }
